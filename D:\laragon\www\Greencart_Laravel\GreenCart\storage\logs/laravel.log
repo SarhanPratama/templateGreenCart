@@ -1,0 +1,9 @@
+[2024-06-20 06:20:08] local.ERROR: There are no commands defined in the "clear" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"clear\" namespace. at /opt/lampp/htdocs/GreenCart/vendor/symfony/console/Application.php:669)
+[stacktrace]
+#0 /opt/lampp/htdocs/GreenCart/vendor/symfony/console/Application.php(720): Symfony\\Component\\Console\\Application->findNamespace()
+#1 /opt/lampp/htdocs/GreenCart/vendor/symfony/console/Application.php(266): Symfony\\Component\\Console\\Application->find()
+#2 /opt/lampp/htdocs/GreenCart/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#3 /opt/lampp/htdocs/GreenCart/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#4 /opt/lampp/htdocs/GreenCart/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
